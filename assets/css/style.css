@@ -1,0 +1,22 @@
+html {
+	font-family: 'Limelight', cursive;
+}
+
+html, body {
+	height: 100%;
+}
+
+.main {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.left {
+	margin-right: 3px;
+}
+
+.right {
+	margin-left: 3px; 
+}
