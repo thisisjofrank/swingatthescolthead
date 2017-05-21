@@ -15,8 +15,119 @@ html, body {
 
 .left {
 	margin-right: 3px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 .right {
-	margin-left: 3px; 
+	margin-left: 3px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.imgholder1 {
+	width: 280px;
+	height: 400px;
+	background-color: darkred;
+	margin-bottom: 5px;
+}
+
+.imgholder2 {
+	width: 380px;
+	height: 180px;
+	background-color: darkblue;
+	margin-bottom: 5px;
+}
+
+.titleholder {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.title {
+	font-size: 110px;
+	max-width: 380px;
+	margin: 5px 0;
+	text-align: right;
+	line-height: 0.9em;
+	text-transform: uppercase;
+}
+
+.by {
+	font-size: 50px;
+	max-width: 380px;
+	text-align: right;
+	line-height: 0.9em;
+	text-transform: uppercase;
+}
+
+.details {
+	display: flex;
+	align-items: stretch;
+	margin-top: 140px;
+}
+
+.details1 {
+	margin-right: 5px;
+	max-width: 215px;
+}
+
+.details2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 140px;
+}
+
+.img3 {
+	width: 215px;
+	height: 540px;
+	background-color: darkgreen;
+}
+
+.subtitle {
+	font-size: 38px;
+	line-height: 0.9em;
+	text-transform: uppercase;
+}
+
+.imgholder3 {
+	margin: 5px 0;
+}
+
+.img4 {
+	width: 295px;
+	height: 250px;
+	background-color: darkmagenta;
+}
+
+.img5 {
+	width: 515px;
+	height: 200px;
+	background-color: darkturquoise;
+}
+
+.img6 {
+	width: 270px;
+	height: 300px;
+	background-color: darkslategrey;
+}
+
+.address {
+	font-size: 24px;
+	line-height: 1em;
+}
+
+.imgholder4 {
+	display: flex;
+}
+
+.date {
+	margin-left: 5px;
+	font-size: 48px;
+	line-height: 0.9em;
+	text-transform: uppercase;
 }
